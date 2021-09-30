@@ -27,6 +27,10 @@ conda install transformers <br />
 
 Use rasa train to train a model. <br /> 
 
-Then, to run, first set up your action server in one terminal window: <br /> 
+Then: <br /> 
 
-rasa run actions --actions actions.actions <br /> 
+rasa run actions  <br /> 
+run the following command to run rasa server  <br /> :
+rasa run --endpoints endpoints.yml --port 5005 --credentials credentials.yml --cors "*" <br />
+run the following command to run the flask application:  <br /> 
+python web_app.py
