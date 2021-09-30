@@ -1,9 +1,9 @@
 This is an assistant Chatbot that can help women be aware of the breast cancer, as Pink October is breast cancer awareness month.
 
 
-👩‍🔧 Create a new environment:\n
+👩‍🔧 Create a new environment: <br />
 
-🔸 create a new environment using the following commands (the environment name is rasa_env):
+🔸 create a new environment using the following commands (the environment name is rasa_env): <br />
 conda create --name rasa_env
 🔸 activate the new environment:
 conda activate rasa_env
