@@ -1,0 +1,67 @@
+version: "2.0"
+
+stories:
+
+- story: story 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_first_message
+
+
+- story: story 5
+  steps:
+  - intent: thanks
+  - action: utter_thanks 
+    
+- story: story 6
+  steps:
+  - intent: bye
+  - action: utter_bye
+  
+  
+- story: story 7
+  steps:
+  - intent: affirm
+  - action: utter_affirm  
+
+- story: story 9
+  steps:
+  - intent: deny
+  - action: utter_deny 
+
+- story: story 99
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot  
+
+- story: story breast
+  steps:
+  - intent: breast_cancer
+  - action: utter_breast
+  - action: utter_breast2
+  - action: utter_breast3
+  - action: utter_breast4
+  - action: utter_breast5
+
+- story: symptoms   
+  steps:
+  - intent: symptoms   
+  - action: utter_symptoms  
+
+- story: riskF   
+  steps:
+  - intent: riskF  
+  - action: utter_riskF
+  - action: utter_riskF2   
+  - action: utter_riskF3
+
+- story: reduce_risk 
+  steps:
+  - intent: reduce_risk  
+  - action: utter_reduce_risk
+
+- story: screening 
+  steps:
+  - intent: screening  
+  - action: utter_screening 

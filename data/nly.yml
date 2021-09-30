@@ -1,0 +1,123 @@
+version: "2.0"
+nlu:
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+    - breast_cancer
+    - symptoms
+    - riskF
+    - reduce_risk
+    - screening
+
+
+- intent: thanks
+  examples: |
+    - thankyou
+    - thanks
+    - thank you
+    - Thanks
+    - Thank You
+    - that's it
+    - no thanks
+    - i am good with it
+    - thanks for your help
+    
+    
+- intent: bye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: breast_cancer
+  examples: |
+    - what is breast cancer?
+    - tell me about breast cancer
+    - information about breast cancer
+    - I want to know about breast cancer
+
+- intent: symptoms    
+  examples: |
+    - what are the symptoms of breast cancer?
+    - symptoms breast cancer
+    - symptoms
+    - signs of breast cancer
+    - what are the signs of breast cancer
+    - signs
+
+- intent: riskF  
+  examples: |
+    - What are the risk factors for Breast Cancer?
+    - what are the risk factors for breast cancer?
+    - risk factors
+    - what are the risk factor that i can't change?
+    - what are the risk factors that i can change?
+  
+
+- intent: reduce_risk 
+  examples: |
+    - What can I do to reduce my risk of breast cancer?
+    - how can i reduce the risk of breast cancer
+    - reduce the risk
+    - lower the risk
+    - how can i lower the risk of breast cancer
+    - decrease the risk
+    - minimize the risk
+    - what are the risk factors that i can change?
+    - how to minimize the risk of breast cancer
+
+- intent: screening
+  examples: |
+    - what Is breast cancer screening?
+    - screening
+    - tell me about screening 
+    - breast cancer screening
+
+    
+  
