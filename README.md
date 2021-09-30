@@ -1,1 +1,1 @@
-hello hello testing
+This is an assistant Chatbot that can help women be aware of the breast cancer, as Pink October is breast cancer awareness month.
