@@ -24,13 +24,10 @@ conda install transformers <br />
 <br />
 
 <h1>🤖 Run the Bot: </h1>  <br /> 
-
-Use rasa train to train a model. <br /> 
-
+🔸 Use rasa train to train a model. <br /> 
 Then: <br /> 
-
-rasa run actions  <br /> 
-run the following command to run rasa server  <br /> :
-rasa run --endpoints endpoints.yml --port 5005 --credentials credentials.yml --cors "*" <br />
+🔸 rasa run actions  <br /> 
+run the following command to run rasa server : <br /> 
+🔸 rasa run --endpoints endpoints.yml --port 5005 --credentials credentials.yml --cors "*" <br />
 run the following command to run the flask application:  <br /> 
-python web_app.py
+🔸 python web_app.py
