@@ -21,3 +21,12 @@ conda install flask <br />
 conda install responses <br />
 🔸 install transformers: <br />
 conda install transformers <br />
+<br />
+
+<h1>🤖 Run the Bot: </h1>  <br /> 
+
+Use rasa train to train a model. <br /> 
+
+Then, to run, first set up your action server in one terminal window: <br /> 
+
+rasa run actions --actions actions.actions <br /> 
