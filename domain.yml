@@ -11,6 +11,9 @@ intents:
  - rsikF
  - reduce_risk 
  - screening
+ - stats
+ - link_website
+ - link_video
 
  
 actions:
@@ -31,7 +34,10 @@ actions:
  - utter_breast3
  - utter_breast4
  - utter_breast5
-
+ - utter_stats
+ - utter_link_website
+ - utter_link_video
+ - utter_type_visualisation
 
 
 responses:
@@ -124,7 +130,25 @@ Research suggests that other factors such as smoking, being exposed to chemicals
  - text: "Breast cancer screeningexternal icon means checking a woman’s breasts for cancer before there are signs or symptoms of the disease. All women need to be informed by their health care provider about the best screening options for them. When you are told about the benefits and risks of screening and decide with your health care provider whether screening is right for you—and if so, when to have it—this is called informed and shared decision-making. \n
 
 Although breast cancer screening cannot prevent breast cancer, it can help find breast cancer early, when it is easier to treat. Talk to your doctor about which breast cancer screening tests are right for you, and when you should have them."
- 
+
+
+ utter_link_website:
+  - text: "https://seer.cancer.gov/statfacts/html/breast.html?fbclid=IwAR33okiQtXTnhi5T4Y-W6WHhffHS2GcA0dujdxfoSYYsdA4aXr1aVd4gO54"
+
+             
+ utter_link_video:
+  - text: "https://youtu.be/1voX0VjABAg"
+
+ utter_type_visualisation:
+  - text: ""
+    buttons:
+      - title: Website
+        payload: Here is the link for the Website
+      - title: Video
+        payload: Here is the link for the Video
+
+
+
  utter_default:
   - text: "ok" 
 

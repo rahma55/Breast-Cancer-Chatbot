@@ -22,6 +22,9 @@ nlu:
     - riskF
     - reduce_risk
     - screening
+    - stats
+    - link_website
+    - link_video
 
 
 - intent: thanks
@@ -119,5 +122,23 @@ nlu:
     - tell me about screening 
     - breast cancer screening
 
-    
-  
+- intent: stats
+  examples: |
+    - give me some statistics about breast cancer
+    - I want stats about breast cancer
+    - I want statistics 
+    - Cancer Stat Facts
+    - cancer stat facts
+    - stat
+    - stats
+    - statistics
+
+- intent: link_website
+  examples: |
+    - here is the link for website
+    - here the link for website :
+
+- intent: link_video
+  examples: |
+    - here is the link for the video 
+    - here the link for the video :

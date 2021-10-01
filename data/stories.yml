@@ -65,3 +65,20 @@ stories:
   steps:
   - intent: screening  
   - action: utter_screening 
+
+
+- story: stats
+  steps:
+  - intent: stats
+  - action: utter_type_visualisation
+  
+- story: lien website
+  steps:
+  - intent: link_website
+  - action: utter_link_website
+    
+
+- story: lien video
+  steps:
+  - intent: link_video
+  - action: utter_link_video
