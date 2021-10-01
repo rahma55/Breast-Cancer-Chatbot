@@ -1,5 +1,11 @@
 This is an assistant Chatbot that can help women be aware of the breast cancer, as Pink October is breast cancer awareness month.
 
+<h1>📁Files: </h1>  <br />
+🔸data/nlu.yml : NLU training data stores structured information about user messages.  <br />
+🔸data/stories.yml : Stories are a type of training data used to train your assistant's dialogue management model. Stories can be used to train models that are able to generalize to unseen conversation paths.  <br />
+🔸domain.yml : The domain defines the universe in which your assistant operates.  <br />
+🔸config.yml : training configurations for the NLU pipeline and policy ensemble
+
 
 <h1>👩‍🔧Create a new environment: </h1>  <br />
 
@@ -40,4 +46,4 @@ To run your test stories: <br />
 To test the NLU model separately start by splitting your NLU data into train and test sets using:  <br /> 
 🔸 rasa data split nlu  <br /> 
 then: <br /> 
-rasa test nlu --nlu train_test_split /test_data.yml
+🔸 rasa test nlu --nlu train_test_split /test_data.yml
