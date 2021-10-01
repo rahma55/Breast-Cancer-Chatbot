@@ -31,3 +31,13 @@ run the following command to run rasa server : <br />
 🔸 rasa run --endpoints endpoints.yml --port 5005 --credentials credentials.yml --cors "*" <br />
 run the following command to run the flask application:  <br /> 
 🔸 python web_app.py
+
+<h1>🤖 Test the Bot: </h1>  <br /> 
+To validate your data and stories run the following command: <br /> 
+🔸 rasa data validate <br /> 
+To run your test stories: <br /> 
+🔸 rasa test <br /> 
+To test the NLU model separately start by splitting your NLU data into train and test sets using:  <br /> 
+🔸 rasa data split nlu  <br /> 
+then: <br /> 
+rasa test nlu --nlu train_test_split /test_data.yml
